@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_learn"
+        android:icon="@drawable/ic_baseline_emoji_flags_24_black"
+        android:title="@string/learn" />
+
+    <item
+        android:id="@+id/navigation_scoreboard"
+        android:icon="@drawable/ic_baseline_emoji_events_24_black"
+        android:title="@string/scoreboard" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_baseline_person_24_black"
+        android:title="@string/account" />
+
+</menu>
