@@ -10,13 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CipherLearn">
         <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.CipherLearn.NoActionBar"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
-
             <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER"/>
-                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
     </application>
